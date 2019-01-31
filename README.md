@@ -78,25 +78,19 @@ The top 20 predictive variables according to their feature importance were relat
 
 ### Repository's Index
 
-**Deliverables**
+* Deliverables
+	+ final_report.pdf: **FINAL REPORT**
+	+ final_presentation.pdf: Executive presentation
+* Code
+	+ final_project.Rmd: Markdown containing **THE CODE OF THE PROJECT.**
 
-- final_report.pdf: **Final report**
-- final_presentation.pdf: Executive presentation
+* Data
+	+ data: Original datasets from kaggle
+		- train.csv
+		- trest.csv
 
-**Code**
+* Predictions
+	+ sample_submission.csv: Text file containing the predictions uploaded to kaggle
 
-- final_project.Rmd: Markdown containing **the code of the project.**
-
-**Data**
-
-- data: Original datasets from kaggle
-	- train.csv
-	- trest.csv
-
-**Predictions**
-	
-- sample_submission.csv: Text file containing the predictions uploaded to kaggle
-
-**Figures**
-
-- Directory containing figures for presentations.
+* Figures
+	+ Directory containing figures for presentations.
