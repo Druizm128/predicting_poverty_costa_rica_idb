@@ -1,7 +1,6 @@
 # Predicting household poverty in Costa Rica
-## Inter-American Development Bank (IDB) Kaggle competition
 
-### Problem
+## Problem
 
 The level of poverty in Costa Rica has increased such that in 2018 21% of households live in these conditions. The government and the Inter-American Development Bank are working to tackle poverty with social programs to attend the need of the poor.
 
@@ -11,13 +10,13 @@ In this sense, the IDB is looking to use machine learning algorithms to help the
 
 ![alt text](figures/banner.png)
 
-### Objective
+## Objective
 
 To develop a machine learning algorithm that can predict household poverty level using household and occupant’s information.
 
 ![alt text](figures/poverty.png)
 
-### Data
+## Data
 
 The data was provided by the IDB through the [Kaggle competition](https://www.kaggle.com/c/costa-rican-household-poverty-prediction).
 
@@ -33,7 +32,7 @@ The target variable is an ordinable variable indicating groups of income level.
 - 3 = vulnerable households 
 - 4 = non-vulnerable households
 
-### Methodology
+## Methodology
 
 The project followed a typical machine learning pipeline:
 
@@ -60,11 +59,11 @@ The evaluation metric is the Macro F-Score.
 
 ![alt text](figures/metric.png)
 
-### Tools
+## Tools
 
 The exploratory data analysis and the machine learning models were fitted using R.
 
-### Results 
+## Results 
 
 The best model was an XGBOOST with 0.4 F-Macro Score, followed by a 0.39 Logistic Regression and a 0.38 Random Forest.
 
@@ -76,7 +75,7 @@ The top 20 predictive variables according to their feature importance were relat
 
 ![alt text](figures/top20_features.png)
 
-### Repository's Index
+## Repository's Index
 
 * Deliverables
 	+ final_report.pdf: **FINAL REPORT**
